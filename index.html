@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT preview card component</title>
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="nft">
+        <div class="nft__overlay">
+          <img
+            src="./src/images/image-equilibrium.jpg"
+            alt="nft image"
+            class="nft__overlay-img"
+          />
+        </div>
+
+        <div class="nft__wrapper">
+          <div class="nft__data">
+            <h1 class="nft__data-title">
+              <a href="#">Equilibrium #3429</a>
+            </h1>
+            <p class="nft__data-text">
+              Our Equilibrium collection promotes balance and calm.
+            </p>
+            <div class="nft__list">
+              <div class="nft__balance">
+                <img
+                  src="./src/images/icon-ethereum.svg"
+                  alt="eth icon"
+                  class="nft__balance-icon"
+                />
+                <p class="nft__balance-text">0.041 ETH</p>
+              </div>
+
+              <div class="nft__time">
+                <img
+                  src="./src/images/icon-clock.svg"
+                  alt="clock icon"
+                  class="nft__time-icon"
+                />
+                <p class="nft__time-text">3 days left</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="nft__creator">
+            <img
+              src="./src/images/image-avatar.png"
+              alt="avatar image"
+              class="nft__creator-avatar"
+            />
+            <p class="nft__creator-text">
+              Creation of
+              <a href="#">Jules Wyvern</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
